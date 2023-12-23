@@ -24,7 +24,8 @@ class Student {
 public class StudentInformationSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Student[] students = new Student[10]; // Array to store student records
+        int a = scanner.nextInt();
+        Student[] students = new Student[a]; // Array to store student records
         int count = 0; // Counter to keep track of the number of students
 
         while (true) {
