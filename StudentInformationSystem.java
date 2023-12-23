@@ -39,7 +39,7 @@ public class StudentInformationSystem {
 
             switch (choice) {
                 case 1:
-                    if (count < 10) {
+                    if (count < a) {
                         System.out.print("Enter name: ");
                         String name = scanner.next();
                         System.out.print("Enter roll number: ");
